@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/layout.tsx"],"sourcesContent":["// This file is intentionally left simple to avoid issues with internationalization.\n// The main layout is defined in src/app/(main)/[lang]/layout.tsx.\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return children;\n}\n"],"names":[],"mappings":"AAAA,oFAAoF;AACpF,kEAAkE;;;;AAEnD,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,OAAO;AACT","debugId":null}}]
+}

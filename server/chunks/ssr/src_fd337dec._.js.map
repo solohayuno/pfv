@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/lib/i18n-config.ts"],"sourcesContent":["export const i18n = {\n    defaultLocale: 'en',\n    locales: ['en', 'es'],\n} as const;\n  \nexport type Locale = (typeof i18n)['locales'][number];\n"],"names":[],"mappings":";;;AAAO,MAAM,OAAO;IAChB,eAAe;IACf,SAAS;QAAC;QAAM;KAAK;AACzB","debugId":null}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/%5Blang%5D/layout.tsx"],"sourcesContent":["import { i18n } from '@/lib/i18n-config';\n\nexport async function generateStaticParams() {\n  return i18n.locales.map((locale) => ({ lang: locale }));\n}\n\nexport default function LangLayout({\n  children,\n  params,\n}: {\n  children: React.ReactNode;\n  params: { lang: string };\n}) {\n  return (\n    <div lang={params.lang} className=\"dark font-body antialiased\">\n      {children}\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEO,eAAe;IACpB,OAAO,4HAAA,CAAA,OAAI,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC,SAAW,CAAC;YAAE,MAAM;QAAO,CAAC;AACvD;AAEe,SAAS,WAAW,EACjC,QAAQ,EACR,MAAM,EAIP;IACC,qBACE,8OAAC;QAAI,MAAM,OAAO,IAAI;QAAE,WAAU;kBAC/B;;;;;;AAGP","debugId":null}}]
+}

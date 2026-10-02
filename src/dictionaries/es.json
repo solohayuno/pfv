@@ -1,0 +1,166 @@
+
+{
+    "page": {
+      "title": "Cursillo Prematrimonial, zona Alcarrizos-Pedro Brand",
+      "description": "Por favor, complete este formulario para comenzar su viaje juntos en la fe."
+    },
+    "languageSelector": {
+      "placeholder": "Seleccionar Idioma",
+      "english": "Inglés",
+      "spanish": "Español"
+    },
+    "login": {
+      "title": "Acceso Privado",
+      "description": "Por favor, ingrese su correo electrónico para acceder al formulario.",
+      "emailLabel": "Correo Electrónico",
+      "submitButton": "Continuar",
+      "loadingButton": "Verificando...",
+      "toast": {
+        "error": {
+          "title": "Acceso Denegado",
+          "description": "El correo proporcionado no tiene acceso. Por favor, contacte al administrador."
+        }
+      }
+    },
+    "form": {
+      "groom": "Novio",
+      "bride": "Novia",
+      "submitButton": "Enviar Inscripción",
+      "generatePDF": "Generar PDF y Enviar",
+      "previousButton": "Anterior",
+      "nextButton": "Siguiente",
+      "totalProgress": "Progreso Total",
+      "submitToast": {
+        "title": "¡Formulario Enviado!",
+        "description": "Se ha recibido su información de inscripción."
+      },
+      "missingNameToast": {
+        "title": "Falta el Nombre",
+        "description": "Por favor, ingrese primero el nombre completo del participante."
+      },
+      "participantCard": {
+        "fullName": "Nombre Completo",
+        "dob": "Fecha de Nacimiento",
+        "age": "Edad",
+        "pickADate": "Seleccione una fecha",
+        "okButton": "OK",
+        "yearsOld": "años",
+        "address": "Dirección",
+        "phone": "Número de Teléfono",
+        "maritalStatus": "Estado Civil",
+        "maritalStatusPlaceholder": "Seleccione el estado civil",
+        "parish": "Parroquia a la que pertenece",
+        "previouslyMarried": "¿Se ha casado anteriormente?",
+        "yes": "Sí",
+        "no": "No",
+        "placeholders": {
+          "groom": {
+            "fullName": "Juan Pérez",
+            "address": "123 Calle Principal, Cualquier Ciudad",
+            "phone": "(555) 123-4567",
+            "parish": "Parroquia de San Miguel"
+          },
+          "bride": {
+            "fullName": "María García",
+            "address": "456 Av. Roble, Cualquier Ciudad",
+            "phone": "(555) 987-6543",
+            "parish": "Iglesia Nuestra Señora de Gracia"
+          }
+        },
+        "maritalStatusOptions": {
+          "single_male": "Soltero",
+          "single_female": "Soltera",
+          "divorced_male": "Divorciado",
+          "divorced_female": "Divorciada",
+          "widowed_male": "Viudo",
+          "widowed_female": "Viuda",
+          "civil_male": "Casado por lo civil",
+          "civil_female": "Casada por lo civil"
+        },
+        "sacramentalHistory": "Historial Sacramental",
+        "received": "Recibido",
+        "noDateSet": "No se ha fijado fecha",
+        "findDate": "Encontrar Fecha",
+        "sacraments": {
+            "baptism": "Bautismo",
+            "firstCommunion": "Primera Comunión",
+            "confirmation": "Confirmación"
+        },
+        "descriptions": {
+          "address": "Calle, ciudad y provincia.",
+          "parish": "La iglesia a la que asiste regularmente.",
+          "previouslyMarried": "Si la respuesta es sí, especifique si fue por lo civil o religioso."
+        },
+        "validation": {
+          "fullName": "El nombre completo debe tener al menos 3 caracteres.",
+          "dob": "La fecha de nacimiento es obligatoria.",
+          "address": "La dirección es obligatoria.",
+          "phone": "Se requiere un número de teléfono válido.",
+          "maritalStatus": "El estado civil es obligatorio.",
+          "previouslyMarried": "Por favor, seleccione una opción.",
+          "parish": "La parroquia es obligatoria."
+        }
+      },
+      "relationshipInfo": {
+        "title": "Información de la Relación",
+        "tabTitle": "Relación",
+        "datingDuration": "¿Cuánto tiempo de noviazgo tienen?",
+        "datingDurationPlaceholder": "ej., 3 años",
+        "weddingDateSet": "¿Tienen fecha de boda fijada?",
+        "pickWeddingDate": "Seleccione una fecha (opcional)",
+        "liveTogether": "¿Viven juntos?",
+        "timeLivingTogether": "¿Cuánto tiempo viviendo juntos?",
+        "timeLivingTogetherPlaceholder": "ej., 1 año",
+        "yes": "Sí",
+        "no": "No",
+        "descriptions": {
+          "timeLivingTogether": "Sea lo más específico posible (p. ej., meses, años)."
+        },
+        "validation": {
+          "datingDuration": "Este campo es obligatorio.",
+          "liveTogether": "Por favor, seleccione una opción."
+        }
+      },
+      "childrenInfo": {
+        "title": "Información sobre Hijos",
+        "tabTitle": "Hijos",
+        "description": "Por favor, indique el número de hijos de esta relación o de relaciones anteriores. Ingrese 0 si no tiene.",
+        "inCommon": "Hijos en común",
+        "groom": "Hijos del novio (de otras relaciones)",
+        "bride": "Hijos de la novia (de otras relaciones)"
+      },
+      "sacramentFinderDialog": {
+        "title": "Encontrar Fecha de Sacramento",
+        "description": "Proporcione detalles para",
+        "approximateYearLabel": "Año Aproximado",
+        "approximateYearPlaceholder": "ej., 1995",
+        "locationLabel": "Ubicación (Iglesia, Ciudad)",
+        "locationPlaceholder": "ej., San Pedro, Roma",
+        "cancelButton": "Cancelar",
+        "findButton": "Encontrar Fecha",
+        "toast": {
+            "success": {
+                "title": "¡Fecha Encontrada!",
+                "description1": "Hemos encontrado una fecha para",
+                "description2": "con un",
+                "description3": "de confianza."
+            },
+            "error": {
+                "title": "Error",
+                "description": "No se pudo encontrar la fecha del sacramento. Por favor, inténtelo de nuevo."
+            }
+        }
+      },
+      "pdfPreview": {
+        "title": "Revisión de la Información de Inscripción",
+        "description": "Por favor, revise la información a continuación. Haga clic en 'Confirmar y Enviar' para finalizar su inscripción.",
+        "downloadButton": "Descargar PDF",
+        "confirmButton": "Confirmar y Enviar",
+        "submitting": "Enviando...",
+        "cancelButton": "Cancelar"
+      }
+    },
+    "footer": {
+      "poweredBy": "Desarrollado por Afable"
+    }
+}
