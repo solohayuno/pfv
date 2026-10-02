@@ -44,3 +44,9 @@ next-env.d.ts
 firebase-debug.log
 firestore-debug.log
 enrollments.json
+
+# build artifacts
+/static
+/cache
+/trace
+*-manifest.json
